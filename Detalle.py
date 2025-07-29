@@ -16,8 +16,5 @@ def main():
     st.markdown(f"**Descripción:** {descripcion}")
     st.markdown(f"**Ubicación:** {ubicacion}")
 
-    st.markdown("---")
-    st.page_link("main.py", label="⬅️ Volver al Inventario", icon="📦")
-
 if __name__ == "__main__":
     main()
