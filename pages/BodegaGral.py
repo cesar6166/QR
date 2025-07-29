@@ -4,6 +4,9 @@ import qrcode
 from io import BytesIO
 import urllib.parse
 
+st.page_link("Detalle.py", label="⬅️ Volver al Inicio", icon="📦")
+st.markdown("---")
+
 @st.cache_data
 def cargar_inventariobodegeneral():
     archivo = 'QRBDGAGRL.xlsx'
