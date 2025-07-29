@@ -7,7 +7,7 @@ def main():
     st.write("pendiente")
 
     st.markdown("---")
-    st.page_link("main.py", label="⬅️ Volver al Inventario", icon="📦")
+    st.page_link("Detalle.py", label="⬅️ Volver al Inicio", icon="📦")
 
 if __name__ == "__main__":
     main()
