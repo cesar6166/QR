@@ -19,7 +19,7 @@ def cargar_inventariobodegeneral():
         return pd.DataFrame()
 
 def generar_qr_url(item, descripcion, ubicacion):
-    base_url = "https://qrbodegageneral.streamlit.app/Detalle"
+    base_url = "https://inventarioqr.streamlit.app/"
     params = {
         "item": item,
         "descripcion": descripcion,
